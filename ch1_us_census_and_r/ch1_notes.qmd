@@ -1,0 +1,32 @@
+---
+title: "ch1_notes"
+format: pdf
+editor: visual
+---
+
+# Loading relevant libraries
+
+# 1.1 Census data: overview
+- US Constitution says we need to count # of people in US in Article 1, Sect 2 and 9 every decade
+    - Recall Census day is April 1
+    - Census helps with **aportionment** - figuring out representation in Congress based on population count
+    - Ask about race, ethnicity, age, sex, and housing tenure in small way
+- **American Community Survey** replaces long form census that's super detailed on income, etc after 2010
+    - Two data sets - **1 year ACS** (has areas with pop >= 65000) and **5-year ACS** (avg of data over 5 yr period cover areas in census blocks)
+    - COVId pandemic ruined data collection for 1 year ACS
+    
+# 1.2 Census hierarchies
+- Aggregate data offered at different heirarchy levels based on geographies
+    - Lowest one is block group in ACS
+    - Lowest one is block in decennial US Census (i.e., census groups)
+    - Can scale up to county level too or even states, divisions, nation
+- Census tract made up of block groups (a group of census blocks)
+    
+- More surveys done by US Census exist
+- Note ZCTAs (zip code tabulation areas - used to to rep postal code geographies) don't nest within any parent geography at all
+- ZCTA not same as county boundaries or zip codes
+
+# 1.3 How to find US Census data 
+- Typically would visit US Census Bureau's American FactFinder site, which is replaced by data.census.gov for downloading data extracts from US Census
+- Can get bulk data from FTP site https://www2.census.gov/program-surveys to download 
+- HUGE as full 5 year file for all geographies over 10GB so need tools and right software for data
