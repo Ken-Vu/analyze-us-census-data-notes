@@ -1,0 +1,11 @@
+---
+title: "ch2_notes"
+format: pdf
+editor: visual
+---
+
+# 2.1 Start with tidycensus
+```{r}
+library(tidyverse)
+```
+

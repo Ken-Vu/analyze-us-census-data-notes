@@ -30,3 +30,5 @@ editor: visual
 - Typically would visit US Census Bureau's American FactFinder site, which is replaced by data.census.gov for downloading data extracts from US Census
 - Can get bulk data from FTP site https://www2.census.gov/program-surveys to download 
 - HUGE as full 5 year file for all geographies over 10GB so need tools and right software for data
+- Can use Census API to interact (need key for it you can get here 
+- Census API link here: https://www.census.gov/data/developers/data-sets.html
